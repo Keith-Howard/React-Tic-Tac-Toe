@@ -1,13 +1,18 @@
 # React-Tic-Tac-Toe
 This is a Tic Tac Toe game, player X always goes first and you take turns clicking on squares until one of the players wins or there is a draw. The program will tell you who goes next and it will tell you which player won or if no one won.
 
-This is a test.
-
 # Installation
 To run this program
 Make sure you have Node.JS installed on your computer.
 Download the JSX, HTML and CSS files from the repository.
-Click on the file and open the Index.HTML file in your browser.
+In order to run this you need to have a local web server.
+    How to install local web server
+    In VS Code open project folder where all files have been unzipped
+    In Terminal window execute npm init
+    In Terminal window execute npm install -g HTTP-Server
+    In Terminal window type HTTP-Server
+    In Terminal window copy URL procided and paste into your browser HTTP://127.0.0.1:8000
+    This will start the program on the browser
 
 # Road Map
 Some features that could be implemented are adding winning statistics, not allowing another player to click a square after it has already been click, changing how player is set (originally it is set to 0 and 1, I would change it to X and O) and highlight winning squares.
