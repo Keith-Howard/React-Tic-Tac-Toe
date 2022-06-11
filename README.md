@@ -8,9 +8,13 @@ Download the JSX, HTML and CSS files from the repository.
 Click on the file and open the Index.HTML file in your browser.
 
 # Road Map
+Some features that could be implemented are adding winning statistics, not allowing another player to click a square after it has already been click, changing how player is set (originally it is set to 0 and 1, I would change it to X and O) and highlight winning squares.
 
+To implement the Player Statistics you will create a useState for stats and initialize it to an empty array in the board component because player and who won is already handled by the board component so they are local to the component. The stats would be displayed in a div on the board.
 
-License Information
+Another change to implement would be not allowing another player to click the same button. Currently you can click the button again and it will change the player value. This can be done in the Square component. There is a state called filled in the square component that is set to false. It is set to true when it has been click by a player. You can set a ternary condition to check for filled === true and disable the button if true.
+
+# License Information
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
