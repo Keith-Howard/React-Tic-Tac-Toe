@@ -1,6 +1,8 @@
 # React-Tic-Tac-Toe
 This is a Tic Tac Toe game, player X always goes first and you take turns clicking on squares until one of the players wins or there is a draw. The program will tell you who goes next and it will tell you which player won or if no one won.
 
+This is a test.
+
 # Installation
 To run this program
 Make sure you have Node.JS installed on your computer.
